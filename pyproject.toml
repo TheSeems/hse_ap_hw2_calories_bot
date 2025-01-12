@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "calories_bot"
+version = "0.1.0"
+description = ""
+authors = ["TheSeems <me@theseems.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^21.10"
+pydantic-settings = "^2.7.1"
+pydantic = "^2.10.5"
+dependency-injector = "^4.45.0"
+pyowm = "^3.3.0"
+openfoodfacts = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

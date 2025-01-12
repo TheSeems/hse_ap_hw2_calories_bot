@@ -1,0 +1,1 @@
+SELECT, INPUT_GRAM = range(2)
