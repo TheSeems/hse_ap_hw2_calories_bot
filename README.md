@@ -33,3 +33,8 @@
   docker run --env-file .env -i hse_ap_hw2_calories_bot:latest
   ```
 
+## Удаленный запуск
+
+Подтверждение:
+
+![render.com](render.png)
