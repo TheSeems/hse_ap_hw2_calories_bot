@@ -7,7 +7,7 @@ from telegram.ext import ContextTypes, MessageHandler, filters
 
 @inject
 async def log_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if context.args:
+    if update.message.text.startswith("/"):
         logging.info(f"Получено сообщение: {update.message.text}")
 
 
