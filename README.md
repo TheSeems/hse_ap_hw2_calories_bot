@@ -27,8 +27,9 @@
 ## Локальный запуск
 
 - Сконфигурировать [.env](.env) файл - указать токен бота и OpenWeatherMap (`test_mode` лучше оставить `false`)
+- Запустить из корневой папки проекта
 - ```commandline
   docker build . -t hse_ap_hw2_calories_bot:latest
-  docker run hse_ap_hw2_calories_bot
+  docker run --env-file .env -i hse_ap_hw2_calories_bot:latest
   ```
 
